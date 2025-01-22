@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.getstreaminfo" name="Get Stream Info" version="0.1.0" provider-name="JiRo">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="service.py">
+		<provides>service</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="cs_CZ">Get Stream Info</summary>
+		<description lang="cs_CZ">Service uloží do specfifických properties ve window=10000 (HOME) informace o adrese přehrávaného streamu.[CR]Současná verze ukládá:[CR]Adresu přehrávaného streamu do property 'played_stream'[CR]Parsovaný název serveru do property 'downloaded_server'.
+</description>
+        <language>cs</language>
+		<platform>all</platform>
+        <license>GPL 2.0</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon></icon>
+		</assets>
+		<news>
+2024-01-10 [0.1.0]
+- initial version
+		</news>
+	</extension>
+</addon>
